@@ -1,0 +1,56 @@
+p{
+    background-color:  cornflowerblue;
+    width: 300px;
+    height: 300px;
+}
+
+a{
+    background-color: cornflowerblue;
+    color: crimson;
+    
+}
+
+div{
+    display:  inline-block;
+
+}
+
+#green-stuff{
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    display: block;
+    background: greenyellow;
+    height: 300px;
+    width: 300px;
+    color: white;
+
+
+}
+
+#red-stuff{
+    position: relative;
+    /*top: 400px;
+    left: 100px;*/
+    display: block;
+    background: red;
+    height: 3000px;
+    width: 3000px;
+    color: white;
+
+
+}
+
+#blue-stuff{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: block;
+    background: blue;
+    color: white;
+    height: 300x;
+    
+    
+
+
+}
