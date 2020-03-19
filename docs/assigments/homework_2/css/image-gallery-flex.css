@@ -1,0 +1,13 @@
+.flexing
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+img
+{
+    width: 20%;
+    height: 20%;
+}

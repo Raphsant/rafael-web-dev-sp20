@@ -1,0 +1,19 @@
+.racc{
+    transition-duration:10s;
+    transition-timing-function: ease-out;
+    transform: rotate(360deg);
+    transition-property: all;
+    
+    
+    
+
+}
+
+.racc:hover{
+    transform: translateX(2000px);
+    transform: translateY(1000px);
+    transition: all 1.5s ease-in;
+
+
+}
+
