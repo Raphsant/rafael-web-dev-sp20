@@ -1,0 +1,44 @@
+.phone{
+    margin: 0 auto;
+    width: 80vw;
+    height: 120vh;
+}
+
+.box{
+    width: max-content;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    border: 5px solid crimson;
+    border-radius: 2 vw;
+    padding: 10px;
+}
+
+.apps-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin:  .5vw 0;
+    padding: 1vw 1vw;
+    border: .5px solid gold;
+    border-radius: 1vw;
+}
+
+.app{
+    width: 2vw;
+    height: 4vh;
+    margin: 0 1vw;
+    padding: 2px;
+    background-color: cornflowerblue;
+    border: 5px crimson;
+    border-radius: .5 vw;
+    transition: background-color 1s, transform 1s, padding 1s, margin 1s;
+}
+
+.app:hover{
+    background-color: cornsilk;
+    transform:  scale(1.25) rotate(360deg);
+    padding: 0;
+    margin: 1.25vw;
+}
+

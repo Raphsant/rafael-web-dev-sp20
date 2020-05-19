@@ -1,19 +1,55 @@
-.racc{
+.racc1{
     transition-duration:10s;
     transition-timing-function: ease-out;
     transform: rotate(360deg);
     transition-property: all;
+    animation: ease-in;
     
-    
-    
-
 }
-
-.racc:hover{
-    transform: translateX(2000px);
-    transform: translateY(1000px);
+.racc2{
+    transition-duration:10s;
+    transition-timing-function: ease-out;
+    transform: rotate(360deg);
+    transition-property: all;
+    animation: ease-in;
+    
+}
+.racc3{
+    transition-duration:10s;
+    transition-timing-function: ease-out;
+    transform: rotate(360deg);
+    transition-property: all;
+    animation: ease-in;
+    
+}
+img{
+    width: 400px;
+}
+.racc1:hover{
+    transform: translateX(400px);
+    transform: translateY(100px);
     transition: all 1.5s ease-in;
+    animation: ease-out;
+    transform: rotate(103deg);
 
 
 }
+.racc2:hover{
+    transform: translateX(2000px);
+    transform: translateY(100px);
+    transition: all 1.5s ease-in;
+    animation: ease-out;
+    transform: rotate(32deg);
 
+
+}
+.racc3:hover{
+    transform: translateX(100px);
+    transform: translateY(100px);
+    transition: all 1.5s ease-in;
+    animation: ease-out;
+    transform: rotate(36000deg);
+    
+
+
+}
