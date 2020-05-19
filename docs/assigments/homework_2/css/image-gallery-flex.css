@@ -1,7 +1,7 @@
 .flexing
 {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     width: 100vw;
     margin: 0 auto;
 }
